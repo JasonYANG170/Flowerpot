@@ -1,4 +1,4 @@
-# YANG Intelligent Flowerpot（挑战杯项目）
+# Intelligent Flowerpot（挑战杯项目）
 项目创作人：杨哲（JasonYANG17)
 
 转发作品源代码请与本人联系。
