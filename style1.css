@@ -11,13 +11,16 @@ body {
 header {
     background-color: aqua;
     border: 1px solid black;
-    padding: 10px;
+    padding:10px;
+    margin-bottom: 10px;
+
 }
 
-headerm {
-    background-color: pink;
-    color: #fff;
-    padding: 10px;
+header2 {
+    background-color: aqua;
+    border: 1px solid black;
+    padding:10px;
+    margin-bottom: 10px;
 }
 h1 {
     margin: 0;
@@ -105,18 +108,108 @@ footer {
 box{
 float: left;
     display: inline-block;
-    padding: 2px;
+    padding: 10px;
     border: 1px solid blue;
     width: 700px;
     height: 450px;
     margin-right: 5px;
-    margin-left: 5px;
+    margin-left: 20px;
     margin-bottom: 20px;
+    border-radius: 30px;
 
 }
 box2{
-    width: 10px;
- border-bottom: 1px solid blue;
+    float: right;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    background-image: url("pic/IMG_20230322_121249.jpg");
+    background-size: 100%;
+ border: 1px solid blue;
+    margin-right: 5px;
+    padding: 1px;
+
+
+}
+box21 {
+    float: right;
+    display: inline-block;
+    width: 255px;
+    height: 150px;
+    background-image: url("pic/1679411563600.png");
+    background-size: 100%;
+    border: 1px solid blue;
+    margin-right: 5px;
+    padding: 1px;
+
+}
+
+box22{
+    float: right;
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    background-image: url("pic/1679411782998.jpg");
+    background-size: 100%;
+    border: 1px solid blue;
+    margin-right: 5px;
+    padding: 1px;
+
+
+}
+box23{
+    float: right;
+    display: inline-block;
+    width: 330px;
+    height: 250px;
+    background-image: url("pic/1679412944166.jpg");
+    background-size: 100%;
+    border: 1px solid blue;
+    margin-right: 5px;
+    padding: 1px;
+
+
+}
+box24{
+    float: right;
+    display: inline-block;
+    width: 430px;
+    height: 250px;
+    background-image: url("pic/1679413146605.png");
+    background-size: 100%;
+    border: 1px solid blue;
+    margin-right: 5px;
+    padding: 1px;
+
+
+}
+box4{
+    float: left;
+    display: inline-block;
+    padding: 10px;
+
+    border-bottom:1px solid blue ;
+
+    border-left:1px solid blue ;
+    width: 745px;
+    height: 400px;
+    margin-bottom: 20px;
+
+}
+
+box3{
+    float: left;
+    display: inline-block;
+    padding: 10px;
+    border-top: 1px solid blue;
+    border-bottom:1px solid blue ;
+    border-left:1px solid blue ;
+
+    width: 490px;
+    height: 400px;
+
+
+
 
 }
 clear{
