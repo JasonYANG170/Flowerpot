@@ -183,14 +183,87 @@ box24{
 
 
 }
+box25{
+    float: right;
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background-image: url("pic/微信图片_20230331213901.jpg");
+    background-size: 100%;
+    border: 1px solid blue;
+    margin-right: 5px;
+    padding: 1px;
+
+
+}
+box26{
+    float:left;
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background-image: url("pic/屏幕截图(4508).png");
+    background-size: 100%;
+    border: 1px solid blue;
+    margin-right: 5px;
+    padding: 1px;
+
+
+}
+box27{
+    float: left;
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background-image: url("pic/微信图片_20230331223009.jpg");
+    background-size: 100%;
+    border: 1px solid blue;
+    margin-right: 5px;
+    padding: 1px;
+
+
+}
+box28{
+    float: left;
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background-image: url("pic/IMG_20230321_225135.jpg");
+    background-size: 100%;
+    border: 1px solid blue;
+    margin-right: 5px;
+    padding: 1px;
+
+
+}
+box29{
+    float: left;
+    display: inline-block;
+    width: 400px;
+    height: 280px;
+    background-image: url("pic/b9e72aafe7704a62af821a5a4b8fb5a3.png");
+    background-size: 100%;
+    border: 1px solid blue;
+    margin-right: 5px;
+    padding: 1px;
+
+
+}
 box4{
     float: left;
     display: inline-block;
     padding: 10px;
-
     border-bottom:1px solid blue ;
-
     border-left:1px solid blue ;
+    width: 745px;
+    height: 350px;
+    margin-bottom: 20px;
+
+}
+box5{
+    float: left;
+    display: inline-block;
+    padding: 10px;
+    border-bottom:1px solid blue ;
     width: 745px;
     height: 400px;
     margin-bottom: 20px;
@@ -204,15 +277,37 @@ box3{
     border-top: 1px solid blue;
     border-bottom:1px solid blue ;
     border-left:1px solid blue ;
-
     width: 490px;
-    height: 400px;
-
-
-
+    height: 300px;
 
 }
+box10{
+    float: left;
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid blue;
+    width: 1000px;
+    height: 200px;
+    margin-right: 5px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+
+    border-radius: 30px;
+
+}
+text{
+    text-align: center;
+}
+text2{
+    text-align: left;
+}
 clear{
+    clear: both;
+    display: block;
+}
+p1{
+    font-size: 17px;
+    margin:10px;
     clear: both;
     display: block;
 }
