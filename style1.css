@@ -2,10 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    width: 1535px;
-    max-width: 100%;
-    min-width: 1535px;
-    height: 100%;
+    height: 100px;
+    float: left;/*float(浮动):用于元素水平方向的布局*/
+
 }
 
 header {
@@ -13,14 +12,15 @@ header {
     border: 1px solid black;
     padding:10px;
     margin-bottom: 10px;
-
+    border-radius: 20px;
 }
 
-header2 {
+headerx {
     background-color: aqua;
     border: 1px solid black;
     padding:10px;
     margin-bottom: 10px;
+    border-radius: 20px;
 }
 h1 {
     margin: 0;
@@ -38,7 +38,7 @@ nav ul {
 
 nav li {
     margin-right: auto;
-margin-left: auto;
+    margin-left: auto;
     color: black;
 }
 nav asd{
@@ -55,7 +55,7 @@ nav a {
 nav form {
     display: flex;
 
-float: right;
+    float: right;
     margin-left: 30px;
     width: 200px;
     height: 30px;
@@ -106,7 +106,7 @@ footer {
 }
 
 box{
-float: left;
+    float: left;
     display: inline-block;
     padding: 10px;
     border: 1px solid blue;
@@ -125,7 +125,7 @@ box2{
     height: 150px;
     background-image: url("pic/IMG_20230322_121249.jpg");
     background-size: 100%;
- border: 1px solid blue;
+    border: 1px solid blue;
     margin-right: 5px;
     padding: 1px;
 
@@ -286,11 +286,9 @@ box10{
     display: inline-block;
     padding: 5px;
     border: 1px solid blue;
-    width: 1000px;
+    width: 100%;
     height: 200px;
-    margin-right: 5px;
-    margin-left: 250px;
-    margin-bottom: 20px;
+
 
     border-radius: 30px;
 
