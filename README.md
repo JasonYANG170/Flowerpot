@@ -1,6 +1,5 @@
 # 第十八届挑战杯智能节水净水花盆项目
 
-
 转发作品源代码请与本人联系。
 
 **未经同意公开源码将追究法律责任。**
@@ -42,9 +41,5 @@
 
 # 第四代基础核心版本成品展示图
 ![e2cf86d9c0880465166424c1e1716e7](https://user-images.githubusercontent.com/39414350/225515446-ba06b7c6-9cdf-4cf3-9155-0f6a3477d32c.jpg)
-![7f206c96d10c3add6fbc6838800669d](https://user-images.githubusercontent.com/39414350/225515457-104715f9-9f73-4360-95e9-f2cd278529b7.jpg)
 
-
-# 第二代成品展示视频
-https://user-images.githubusercontent.com/39414350/225515465-22101042-9bca-463d-8538-e645d730f1f4.mp4
 
