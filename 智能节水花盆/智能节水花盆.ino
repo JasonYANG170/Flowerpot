@@ -1,22 +1,22 @@
 ﻿/*
  Name:		智能节水花盆.ino
  Created:	2023/3/15 0:22:26
- Author:	qw200
+ Author:	JasonYANG17
 */
-
+//导入配置库
 #include <GFX4d.h>
 #include <UnoWiFiDevEd.h>
 #include <Adafruit_SSD1306.h>  //驱动128x64 and 128x32 的屏幕显示的库
 #include <Adafruit_GFX.h>      //Arduino的图形库
 #include <Wire.h>
 #include <SPI.h>
-
+//配置屏幕像素
 #define SCREEN_WIDTH 128  // OLED display width, in pixels
 #define SCREEN_HEIGHT 64  // OLED display height, in pixels
 // Declaration for an SSD1306 display connected to I2C (SDA, SCL pins)
-
+//定义OLED恢复引脚，无则定义为-1
 #define OLED_RESET -1  // Reset pin # (or -1 if sharing Arduino reset pin)
-Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);//配置数据
 // Example testing sketch for various DHT humidity/temperature sensors
 // Written by ladyada, public domain
 
@@ -32,7 +32,7 @@ int LED = 15;
 DHT dht(DHTPIN, DHTTYPE);//进行初始化设置
 
 int buttonPin = 12;  // 将开关连接到
-int buttonState = 0;
+int buttonState = 0;//开关状态为0
 void setup() {
     Serial.begin(9600);
     dht.begin();//DHT开始工作
@@ -43,15 +43,15 @@ void setup() {
     digitalWrite(in1, LOW);
     digitalWrite(in2, LOW);
     digitalWrite(LED, LOW);
-    pinMode(buttonPin, INPUT_PULLUP);  // 设
+    pinMode(buttonPin, INPUT_PULLUP);  // 设置开关模式
     //Serial.println("OLED FeatherWing test");  //串口输出信息
 
     display.begin(SSD1306_SWITCHCAPVCC, 0x3c);  //初始化OLED并设置其IIC地址为 0x3C
     display.clearDisplay();                     //清屏
     delay(200);
 
-    display.setTextSize(1.3);
-    display.setTextColor(SSD1306_WHITE);
+    display.setTextSize(1.3);//设置文本大小
+    display.setTextColor(SSD1306_WHITE);//设置字体颜色
     display.setCursor(0, 0);  //设置光标的位置
 
     //绘制像素点
@@ -111,7 +111,7 @@ void setup() {
 void loop() {
     // delay(2000);
 
-    buttonState = digitalRead(buttonPin);
+    buttonState = digitalRead(buttonPin);//读取开关通断模式，并导入至开关状态
 
     Serial.println(analogRead(14));//湿度传感器接ESP32上的GPIO号
     delay(100);
