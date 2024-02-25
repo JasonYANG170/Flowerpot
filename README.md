@@ -1,4 +1,8 @@
-# Flowerpot交互花盆  ![GitHub License](https://img.shields.io/github/license/JasonYANG170/Flowerpot)
+# Flowerpot交互花盆 
+![GitHub License](https://img.shields.io/github/license/JasonYANG170/Flowerpot)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/JasonYANG170/Flowerpot?)
+![GitHub language count](https://img.shields.io/github/languages/count/JasonYANG170/Flowerpot?logo=cplusplus)  
+
 这是一项基于C++语言，以ESP8266为核心处理器开发的Arduino物联网项目  
 ![flowerpot-300x282](https://github.com/JasonYANG170/Flowerpot/assets/39414350/fb4f4e7e-ed8a-4745-9fe7-4c52a4537b50)
 
@@ -29,6 +33,7 @@
 **11月**，我们再次对产品迭代，改名为Flowerpot交互花盆，并添加了AI交互大模型及深度视觉识别学习算法特点，用户可以通过客户端软件连接AI交互大模型实现与植物的拟人交互，研究认为有助于缓解用户压力。同时用户可以通过拍摄植物生长过程的图片并上传给电脑客户端，基于深度视觉识别学习算法可以得出植物未来生长趋势，生长速率等信息。  
 
 **2024年1月**，通过用户使用反馈，认为原有花盆结构存在烂根，排水能力较弱问题，我们对于花盆整体结构重新升级，并引入新的特点“模块化设计”思路，用户可以根据喜好选择搭载模块化部件，可以添加蓄电池模块，太阳能模块，LED红蓝光模块，自动浇水模块，笔筒组件等等。  
+
 
 
 
