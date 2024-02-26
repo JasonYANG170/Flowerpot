@@ -1,12 +1,20 @@
-# Flowerpot交互花盆 
-![GitHub License](https://img.shields.io/github/license/JasonYANG170/Flowerpot)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/JasonYANG170/Flowerpot?)
-![GitHub language count](https://img.shields.io/github/languages/count/JasonYANG170/Flowerpot?logo=cplusplus)  
-
-这是一项基于C++语言，以ESP8266为核心处理器开发的Arduino物联网项目  
-![flowerpot-300x282](https://github.com/JasonYANG170/Flowerpot/assets/39414350/fb4f4e7e-ed8a-4745-9fe7-4c52a4537b50)
-
+<div align="center">
+    <h1> Flowerpot交互花盆</h1>
+    <img src="https://img.shields.io/github/license/JasonYANG170/Flowerpot?style=for-the-badge">
+    <img src="https://img.shields.io/github/commit-activity/w/JasonYANG170/Flowerpot?style=for-the-badge">
+	<img src="https://img.shields.io/github/languages/count/JasonYANG170/Flowerpot?logo=cplusplus&style=for-the-badge">
+	<br>
+    	<a href="https://discord.com/invite/az3ceRmgVe"><img alt="Discord" src="https://img.shields.io/discord/978108215499816980?style=social&logo=discord&label=echosec"></a>
+  <br>
+  <img src="https://github.com/JasonYANG170/Flowerpot/assets/39414350/fb4f4e7e-ed8a-4745-9fe7-4c52a4537b50">
+  <br>
+这是一项基于C++语言，以ESP8266为核心处理器开发的Arduino物联网项目
+  
+<br>
 本项目开源版本为Core版本，请遵守GPL2.0开源许可协议
+</div>
+
+
 ## 功能
 - [x] 拟人表情
 - [x] ChatGPT文字交互模型
