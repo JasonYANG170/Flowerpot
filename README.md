@@ -15,13 +15,13 @@
 </div>
 
 ## 本项目接入万物互联IOT
-电脑端：
+电脑端：https://github.com/JasonYANG170/IOTConnect-PC
 
 
-手机端：
+手机端：https://github.com/JasonYANG170/IOTConnect-Android
 
 
-Web端：
+Web端：https://github.com/JasonYANG170/IOTConnect-Web
 
 ## 功能
 - [x] 拟人表情
