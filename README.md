@@ -14,6 +14,8 @@
 本项目开源版本为Core版本，请遵守GPL2.0开源许可协议
 </div>
 
+## 演示视频
+[哔哩哔哩](https://www.bilibili.com/video/BV1LCTFeuEKt/)
 ## 本项目接入万物互联IOT
 电脑端：https://github.com/JasonYANG170/IOTConnect-PC
 
