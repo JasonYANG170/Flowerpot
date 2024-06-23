@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>WIFI配置</title>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            height: 30px;
+            width: 300px;
+            margin-top: 20px;
+
+            padding: 10px 20px;
+            background-color: darkgray;
+            color: #fff;
+            border: none;
+            border-radius: 20px; /* 添加圆角 */
+            text-decoration: none;
+            line-height: 2; /* 通过调整line-height的值来调整文字的垂直位置 */
+            text-align: center; /* 文字居中 */
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* 添加立体感 */
+            transition: all 0.3s ease; /* 添加过渡效果 */
+        }
+
+        .button:hover {
+            background-color: #86b7fe; /* 鼠标悬停时的背景颜色 */
+            transform: translateY(2px); /* 点击效果 */
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* 添加更多立体感 */
+        }
+        .search-box {
+            margin-top: 20px;
+            display: inline-block;
+            height: 30px;
+            width: 300px;
+            padding: 5px 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            text-align: center; /* 文字居中 */
+        }
+        .hidden {
+            display: none; /* 初始隐藏 */
+        }
+    </style>
+
+</head>
+<body>
+<form onsubmit='encodeSSID()' name='input' action='/wifi' method='POST'>
+    <div class='container'>
+        <h1>万物互联IOT离线控制中心</h1>
+
+        <input type='text' name='ssid' id='ssid' placeholder='输入WIFI名称' class='search-box'>
+
+        <input type='text' name='password' placeholder='输入WIFI密码' class='search-box'>
+
+        <input type='submit'  style="height: 50px;width: 320px"  class='button'  value="保存">
+
+        <div class='button'>
+            <input type='checkbox' id='showAdvanced'>
+            <label for='showAdvanced' >显示高级选项</label>
+        </div>
+        <div id='advancedOptions' class='hidden'>
+            <h3>MQTT</h3>
+            <input type='text' name='host' placeholder='域名IP' class='search-box'>
+            <input type='text' name='port' placeholder='端口' class='search-box'>
+            <input type='text' name='client' placeholder='Client' class='search-box'>
+            <input type='text' name='topic' placeholder='Topic' class='search-box'>
+            <input type='text' name='user' placeholder='用户名' class='search-box'>
+            <input type='text' name='mqttpassword' placeholder='密钥' class='search-box'>
+        </div>
+
+
+    </div>
+</form>
+</body>
+<script>
+    function encodeSSID() {
+        var inputSSID = document.getElementById('ssid').value;
+        var encodedSSID = encodeURIComponent(inputSSID);
+        document.getElementById('ssid').value = encodedSSID;
+    }
+    const checkbox = document.getElementById('showAdvanced');
+    const advancedOptions = document.getElementById('advancedOptions');
+
+    checkbox.addEventListener('change', function() {
+        if (checkbox.checked) {
+            advancedOptions.style.display = 'block';
+        } else {
+            advancedOptions.style.display = 'none';
+        }
+    });
+</script>
+</html>

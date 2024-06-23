@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>控制台</title>
+    <script>
+        function toggleStatus(id) {
+            var currentState = document.getElementById('status' + id).value;
+            var newState = (currentState === '0') ? '1' : '0';
+            document.getElementById('status' + id).value = newState;
+            document.getElementById('toggleButton' + id).innerText = (newState === '0') ? '关' : '开';
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', '/updatexv?id=' + id, true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.send('status=' + newState);
+        }
+    </script>
+</head>
+<body>
+<button id='toggleButton1' onclick='toggleStatus(1)'>{{AUTOst}}</button>
+<input type='hidden' id='status1' value='{{AUTOst}}'>
+<br>
+<button id='toggleButton2' onclick='toggleStatus(2)'>{{LEDst}}</button>
+<input type='hidden' id='status2' value='{{LEDst}}'>
+<br>
+<button id='toggleButton3' onclick='toggleStatus(3)'>{{HOTst}}</button>
+<input type='hidden' id='status3' value='{{HOTst}}'>
+<br>
+<button id='toggleButton4' onclick='toggleStatus(4)'>{{PUMPst}}</button>
+<input type='hidden' id='status4' value='{{PUMPst}}'>
+</body>
+</html>

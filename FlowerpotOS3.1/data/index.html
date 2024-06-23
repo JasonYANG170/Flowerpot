@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>万物互联IOT离线控制中心</title>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            height: 30px;
+            width: 300px;
+            margin-top: 20px;
+
+            padding: 10px 20px;
+            background-color: darkgray;
+            color: #fff;
+            border: none;
+            border-radius: 20px; /* 添加圆角 */
+            text-decoration: none;
+            line-height: 2; /* 通过调整line-height的值来调整文字的垂直位置 */
+            text-align: center; /* 文字居中 */
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* 添加立体感 */
+            transition: all 0.3s ease; /* 添加过渡效果 */
+        }
+
+        .button:hover {
+            background-color: #86b7fe; /* 鼠标悬停时的背景颜色 */
+            transform: translateY(2px); /* 点击效果 */
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* 添加更多立体感 */
+        }
+        .search-box {
+            margin-top: 20px;
+            display: inline-block;
+            height: 30px;
+            width: 300px;
+            padding: 5px 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            text-align: center; /* 文字居中 */
+        }
+        .hidden {
+            display: none; /* 初始隐藏 */
+        }
+</style>
+        </head>
+<body>
+<div class="container">
+    <h1>万物互联IOT离线控制中心</h1>
+    <p>欢迎使用我们的物联网产品，这里是离线控制台，您可以在此配置产品设置</p>
+    <a href="wifi" class="button">配网</a>
+    <a href="contol" class="button">控制台</a>
+    <a href="info" class="button">设备信息</a>
+    <a href="update" class="button">固件升级</a>
+</div>
+</body>
+</html>
