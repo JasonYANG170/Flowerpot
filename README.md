@@ -1,4 +1,5 @@
 <div align="center">
+	  <img src="https://github.com/JasonYANG170/Flowerpot/assets/39414350/fb4f4e7e-ed8a-4745-9fe7-4c52a4537b50">
     <h1> Flowerpot交互花盆</h1>
     <img src="https://img.shields.io/github/license/JasonYANG170/Flowerpot?style=for-the-badge">
     <img src="https://img.shields.io/github/commit-activity/w/JasonYANG170/Flowerpot?style=for-the-badge">
@@ -6,7 +7,7 @@
 	<br>
     	<a href="https://discord.com/invite/az3ceRmgVe"><img alt="Discord" src="https://img.shields.io/discord/978108215499816980?style=social&logo=discord&label=echosec"></a>
   <br>
-  <img src="https://github.com/JasonYANG170/Flowerpot/assets/39414350/fb4f4e7e-ed8a-4745-9fe7-4c52a4537b50">
+
   <br>
 这是一项基于C++语言，以ESP8266为核心处理器开发的Arduino物联网项目
   
