@@ -15,7 +15,10 @@
 </div>
 
 ## 演示视频
-[哔哩哔哩](https://www.bilibili.com/video/BV1LCTFeuEKt/)
+[![Flowerpot](https://res.cloudinary.com/marcomontalbano/image/upload/v1719167915/video_to_markdown/images/youtube--T8O9qbLbfRQ-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/T8O9qbLbfRQ "Flowerpot")
+
+
+[无法播放请点此使用BiliBili](https://www.bilibili.com/video/BV1LCTFeuEKt/)
 ## 本项目接入万物互联IOT
 电脑端：https://github.com/JasonYANG170/IOTConnect-PC
 
