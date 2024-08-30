@@ -26,19 +26,18 @@
 **Web:**     https://github.com/JasonYANG170/IOTConnect-Web
 
 ## 功能
-- [x] 拟人表情
-- [x] ChatGPT文字交互模型
-- [x] OpenCV深度视觉识别算法
-- [x] 客户端远控Android/Windows
-- [x] 土壤加温
-- [x] 无线充电
-- [x] 蓄电池充电
-- [x] 电量显示
-- [x] 自动浇水
-- [x] 支持mqtt服务器收发
-- [x] 支持OTA技术
-- [ ] 每日报告
-- [ ] 模块插件
+- ✅ 拟人表情
+- ✅ ChatGPT文字交互模型
+- ✅ OpenCV深度视觉识别算法
+- ✅ 客户端远控Android/Windows
+- ✅ 土壤加温
+- ✅ 无线充电
+- ✅ 蓄电池充电
+- ✅ 电量显示
+- ✅ 支持mqtt服务器收发
+- ✅ 支持OTA技术
+- ✅ 支持webserver本地服务器
+- ✅ 被动土壤加湿
 
 ## 系统
 #### FlowerpotOS2.0
@@ -53,12 +52,18 @@
 本项目遵循CC BY-NC-SA 4.0开源协议，使用本程序时请注明出处并进行版权声明  
 本项目仅供学习研究与学习，严禁非授权的商业获利，  
 如果您有更好的建议，欢迎PR
+## 喜欢这个项目，请为我点个Star ⭐
 
-## 成品展示
+[![Star History Chart](https://api.star-history.com/svg?repos=JasonYANG170/Flowerpot&type=Date)](https://star-history.com/#star-history/star-history&Date)
+## 实物图
 
-![5a2a968c0e3f4279aa1eb2d55f836822](https://github.com/user-attachments/assets/2a8849e0-01ae-415b-884f-a2ca97c9cc04)
-![53dfe13091ea4426bf5c8c9197375bad](https://github.com/user-attachments/assets/2961dbbe-31c6-4260-b39e-6316866f306a)
-![fe88efec436d484fb800d1f43aa91a70](https://github.com/user-attachments/assets/b8dcfa97-85c3-435a-a6b5-ae8cb66764cf)
-![b073a68fb3d4fd7001f69a4ec26c6d6](https://github.com/user-attachments/assets/805f0c21-68b2-4d5c-8d79-24df6727f546)
+| 1 | 2 |
+| --- | --- |
+|![5a2a968c0e3f4279aa1eb2d55f836822](https://github.com/user-attachments/assets/2a8849e0-01ae-415b-884f-a2ca97c9cc04)|![53dfe13091ea4426bf5c8c9197375bad](https://github.com/user-attachments/assets/2961dbbe-31c6-4260-b39e-6316866f306a)|
+|![fe88efec436d484fb800d1f43aa91a70](https://github.com/user-attachments/assets/b8dcfa97-85c3-435a-a6b5-ae8cb66764cf)|![b073a68fb3d4fd7001f69a4ec26c6d6](https://github.com/user-attachments/assets/805f0c21-68b2-4d5c-8d79-24df6727f546)
+|
+
+
+
 
 
