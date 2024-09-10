@@ -24,6 +24,9 @@
 **Android:** https://github.com/JasonYANG170/IOTConnect-Android  
 **Windows:** https://github.com/JasonYANG170/IOTConnect-PC  
 **Web:**     https://github.com/JasonYANG170/IOTConnect-Web
+| 1 | 2 |
+| --- | --- |
+|![c7632aa80bd1735d693a02095763f9d](https://github.com/user-attachments/assets/d25e5457-06dc-487d-bec1-6ae18746264e)|![6623b1cf54afd8c1d022f3fbe82b820](https://github.com/user-attachments/assets/2c192ce7-6ea0-4550-8c7c-f91a318381b4)|
 
 ## 功能
 - ✅ 拟人表情
